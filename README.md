@@ -32,8 +32,16 @@ The Chat Application is a comprehensive Full Stack solution designed to facilita
 
 
 ## Screenshots
+1.Login Page
+![loginPage](https://github.com/user-attachments/assets/b33b0231-448b-4947-a4d7-91e52b4f3739)
+2.SignUp page
+![signUpPage](https://github.com/user-attachments/assets/cf341b28-5bce-4776-9dcb-5fb7b659f330)
+3.Notification
+![Notification page](https://github.com/user-attachments/assets/381a566b-f176-4d61-9b51-ed8b710cb804)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+
 
 
 ## Installation 
@@ -42,6 +50,7 @@ The Chat Application is a comprehensive Full Stack solution designed to facilita
  1. Download link for [VScode(windows)](https://code.visualstudio.com/Download) 
 
 2. install VScode with the default settings.
+
 3. [Nodejs](https://nodejs.org/en/download/package-manager)  and [MongoDB](https://www.mongodb.com/docs/manual/administration/install-community/)  both should be install and Make sure MongoDB is runing.
  #### Environment Variables
 To run this project, you will need to add the following environment variables to your .env file
@@ -49,30 +58,30 @@ To run this project, you will need to add the following environment variables to
 
  #### Run Locally
 Clone the project
-```http
+```
    git clone https://github.com/Lav437/chat-app.git
 ```
 Go to the project directory
-```http
+```
   cd chat-app
 ```
 Install the dependency
-```http
+```
   cd client/
   npm install
 ```
-```http
+```
   cd server/
   npm install
 ```
 Start the server
 
-```http
+```
   cd server/
   npm run dev
 ```
 Start the client
-```http
+```
   cd server/
   npm Start
 ```
